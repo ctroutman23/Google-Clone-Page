@@ -1,0 +1,44 @@
+body {
+
+}
+
+.dark {
+background: #202124;
+}
+
+
+/* Google Search */
+h1 {
+  font-family: 'Product Sans', sans-serif;
+  font-size: 5.5rem;
+  text-align: center;
+  color: white;
+}
+
+.searchbar-container form{
+ display: flex;
+ justify-content: center;
+}
+
+.searchbar-textarea {
+  position: relative;
+}
+
+.searchbar-textarea input {
+  width: 500px;
+  height: 40px;
+  background: #202124;
+  border-radius: 15%;
+  border: thin 2px lightgray;
+  font-size: 16px;
+}
+
+.searchbar-textarea i {
+  position: absolute;
+  left: 4px;
+  top: 11px;
+}
+
+.searchbar-textarea:hover {
+
+}
